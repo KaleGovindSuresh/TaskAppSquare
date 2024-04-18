@@ -1,0 +1,64 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 97vh;
+  /* background-image: url("https://applicationsquare.com/wp-content/uploads/2018/12/contact_bg_top-1.jpg"); */
+  background-image: url("../../public/contact_bg_top-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.heading_contact {
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.contact-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+}
+.label {
+  display: inline-block;
+  width: 390px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+input[type="email"],
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+.add_btn {
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid rgb(93, 159, 246);
+  background-color: rgb(93, 159, 246);
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.submit_btn {
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid rgb(81, 236, 81);
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(81, 236, 81);
+}

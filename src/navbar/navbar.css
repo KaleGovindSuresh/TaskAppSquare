@@ -1,0 +1,52 @@
+.nav {
+  position: relative;
+  width: 100%;
+  height: 97vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../public/tinyhoime_bannersmall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.log_img {
+  width: 200px;
+  height: auto;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  padding: 26px;
+}
+
+.list li {
+  margin-right: 20px;
+}
+
+.list li:last-child {
+  margin-right: 0;
+}
+
+.list li a {
+  font-size: 17px;
+  font-weight: bold;
+  padding: 8px;
+  color: black;
+  text-decoration: none;
+}
+.list li a:hover {
+  color: rgb(250, 245, 245);
+}
